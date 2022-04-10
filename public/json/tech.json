@@ -21,9 +21,9 @@
       "name": "JSON"
     },
     {
-      "icon": "react",
-      "url": "https://reactnative.dev/",
-      "name": "React"
+      "icon": "vue",
+      "url": "https://vuejs.org/",
+      "name": "Vue"
     },
     {
       "icon": "tailwind",
