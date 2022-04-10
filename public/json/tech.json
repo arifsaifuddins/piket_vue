@@ -1,0 +1,67 @@
+[
+  [
+    {
+      "icon": "js",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "name": "Javascript"
+    },
+    {
+      "icon": "css",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "name": "CSS"
+    },
+    {
+      "icon": "html",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "name": "HTML"
+    },
+    {
+      "icon": "json",
+      "url": "https://www.json.org",
+      "name": "JSON"
+    },
+    {
+      "icon": "react",
+      "url": "https://reactnative.dev/",
+      "name": "React"
+    },
+    {
+      "icon": "tailwind",
+      "url": "https://tailwindcss.com/",
+      "name": "Tailwind"
+    },
+    {
+      "icon": "vite",
+      "url": "https://vitejs.dev/",
+      "name": "Vite"
+    },
+    {
+      "icon": "netlify",
+      "url": "https://www.netlify.com/",
+      "name": "Netlify"
+    },
+    {
+      "icon": "expo",
+      "url": "https://expo.dev/",
+      "name": "Expo"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/saifuddien",
+      "name": "github"
+    },
+    {
+      "url": "https://instagram.com/saifuddien_",
+      "name": "instagram"
+    },
+    {
+      "url": "https://wa.me//+249121208279",
+      "name": "whatsapp"
+    },
+    {
+      "url": "https://facebook.com/saifuddien01",
+      "name": "facebook"
+    }
+  ]
+]

@@ -1,0 +1,66 @@
+[
+  [
+    {
+      "id": 0,
+      "icon": "Akbar",
+      "nama": "Muhammad Akbar",
+      "daerah": "Makassar, Sulawesi",
+      "jabatan": "Ketua",
+      "no": "+249926180213"
+    },
+    {
+      "id": 1,
+      "icon": "Anas",
+      "nama": "Azwar Anas",
+      "daerah": "Sragen, Jawa Tengah",
+      "jabatan": "Musyrif",
+      "no": "+249115483864"
+    },
+    {
+      "id": 2,
+      "icon": "Arief",
+      "nama": "Arief Saifuddien",
+      "daerah": "Jepara, Jawa Tengah",
+      "jabatan": "Koki",
+      "no": "+249121208279"
+    }
+  ],
+  [
+    {
+      "id": 3,
+      "nama": "Hasan",
+      "jabatan": "Anggota",
+      "no": "+249118322805"
+    },
+    {
+      "id": 4,
+      "nama": "Iqbal",
+      "jabatan": "Anggota",
+      "no": "+249999847074"
+    },
+    {
+      "id": 5,
+      "nama": "Andri",
+      "jabatan": "Anggota",
+      "no": "+6283802608614"
+    },
+    {
+      "id": 6,
+      "nama": "Adlan",
+      "jabatan": "Anggota",
+      "no": "+249999773569"
+    },
+    {
+      "id": 7,
+      "nama": "Andrian",
+      "jabatan": "Anggota",
+      "no": "+249998753717"
+    },
+    {
+      "id": 8,
+      "nama": "Abdullah",
+      "jabatan": "Anggota",
+      "no": "+6287765140280"
+    }
+  ]
+]

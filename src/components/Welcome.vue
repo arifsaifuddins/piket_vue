@@ -1,0 +1,30 @@
+<script setup>
+  import { useRouter } from "vue-router";
+
+  const router = useRouter();
+</script>
+
+<template>
+  <div class="flex flex-col justify-around items-center h-full">
+    <img src="../../assets/svg/navbar/welcome.svg" class="w-80" alt="svg" />
+    <div class="w-full p-5 text-center">
+      <h3 class="font-semibold my-5 text-2xl">Hai, Semua...</h3>
+      <h4 class="mb-10 text-2xl">Selamat datang di Piket Sabtu</h4>
+      <router-link
+        to="/menu"
+        class="
+          bg-[#f59800]
+          p-4
+          rounded-md
+          text-white
+          font-extrabold
+          w-full
+          block
+          shadow-lg
+          text-2xl
+        "
+        >Lihat Menu Puasa
+      </router-link>
+    </div>
+  </div>
+</template>

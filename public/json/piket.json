@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "menu": "Menu Sahur",
+    "icon": "sun",
+    "daftar": [
+      {
+        "id": 0,
+        "judul": "Makanan"
+      },
+      {
+        "id": 1,
+        "judul": "Minuman"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "menu": "Menu Iftar",
+    "icon": "mosque",
+    "daftar": [
+      {
+        "id": 2,
+        "judul": "Takjil"
+      },
+      {
+        "id": 3,
+        "judul": "Buah"
+      },
+      {
+        "id": 4,
+        "judul": "Minuman"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "menu": "Menu Malam",
+    "icon": "moon",
+    "daftar": [
+      {
+        "id": 5,
+        "judul": "Makanan"
+      },
+      {
+        "id": 6,
+        "judul": "Minuman"
+      }
+    ]
+  }
+]
