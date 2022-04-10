@@ -16,7 +16,7 @@
       w-full
     "
   >
-    <img src="../../assets/icons/icon.png" alt="icon" class="w-14" />
+    <img src="/assets/icons/icon.png" alt="icon" class="w-14" />
     <h1 class="text-4xl font-bold mx-3">
       Piket
       <span class="bg-[#f59800] px-3 py-1 rounded-md text-white shadow-sm"
@@ -46,31 +46,19 @@
     "
   >
     <router-link to="/menu" class="flex flex-col items-center">
-      <img src="../../assets/svg/navbar/menu.svg" alt="menu" class="w-6 h-6" />
+      <img src="/assets/svg/navbar/menu.svg" alt="menu" class="w-6 h-6" />
       <h3 class="text-sm mt-1">Menu</h3>
     </router-link>
     <router-link to="/anggota" class="flex flex-col items-center">
-      <img
-        src="../../assets/svg/navbar/users.svg"
-        alt="anggota"
-        class="w-6 h-6"
-      />
+      <img src="/assets/svg/navbar/users.svg" alt="anggota" class="w-6 h-6" />
       <h3 class="text-sm mt-1">Anggota</h3>
     </router-link>
     <router-link to="/shalat" class="flex flex-col items-center">
-      <img
-        src="../../assets/svg/navbar/shalat.svg"
-        alt="anggota"
-        class="w-6 h-6"
-      />
+      <img src="/assets/svg/navbar/shalat.svg" alt="anggota" class="w-6 h-6" />
       <h3 class="text-sm mt-1">Shalat</h3>
     </router-link>
     <router-link to="/tentang" class="flex flex-col items-center">
-      <img
-        src="../../assets/svg/navbar/about.svg"
-        alt="about"
-        class="w-6 h-6"
-      />
+      <img src="/assets/svg/navbar/about.svg" alt="about" class="w-6 h-6" />
       <h3 class="text-sm mt-1">Tentang</h3>
     </router-link>
   </div>
