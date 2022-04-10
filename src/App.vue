@@ -1,9 +1,16 @@
-<script setup>
-</script>
-
 <template>
   <div
-    className="bg-white text-slate-800 h-[100vh] sm:w-[400px] mx-auto w-full p-5 overflow-x-hidden shadow"
+    class="
+      bg-white
+      text-slate-800
+      h-[100vh]
+      sm:w-[400px]
+      mx-auto
+      w-full
+      p-5
+      overflow-x-hidden
+      shadow
+    "
   >
     <router-view />
   </div>
