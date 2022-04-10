@@ -36,9 +36,9 @@
       "name": "Vite"
     },
     {
-      "icon": "netlify",
-      "url": "https://www.netlify.com/",
-      "name": "Netlify"
+      "icon": "vercel",
+      "url": "https://vercel.com/",
+      "name": "Vercel"
     },
     {
       "icon": "expo",
