@@ -85,6 +85,7 @@
         <input
           type="text"
           class="
+            bg-transparent
             p-3
             text-xl
             outline-none
@@ -103,6 +104,7 @@
         <input
           type="text"
           class="
+            bg-transparent
             p-3
             text-xl
             outline-none

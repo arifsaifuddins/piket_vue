@@ -16,6 +16,7 @@
           flex
           justify-center
           items-center
+          dark:bg-slate-700
         "
       >
         <h1 class="font-bold text-2xl text-[#f59800]">Anggota</h1>
@@ -31,6 +32,7 @@
           p-4
           flex
           hover:bg-slate-50
+          dark:hover:bg-slate-600 dark:bg-slate-700
           justify-start
           items-center
           rounded-lg
@@ -51,7 +53,7 @@
         </div>
       </a>
 
-      <div class="grid grid-cols-2 w-full gap-5 mt-10">
+      <div class="grid grid-cols-3 w-full gap-3 mt-10">
         <a
           v-for="angg in json[1]"
           :href="`https://wa.me//${angg.no}`"
@@ -63,6 +65,7 @@
             flex flex-col
             items-center
             hover:bg-slate-50
+            dark:hover:bg-slate-600 dark:bg-slate-700
           "
         >
           <img

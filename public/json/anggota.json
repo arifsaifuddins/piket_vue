@@ -28,9 +28,9 @@
   [
     {
       "id": 3,
-      "nama": "Hasan",
+      "nama": "Andri",
       "jabatan": "Anggota",
-      "no": "+249118322805"
+      "no": "+6283802608614"
     },
     {
       "id": 4,
@@ -40,15 +40,15 @@
     },
     {
       "id": 5,
-      "nama": "Andri",
-      "jabatan": "Anggota",
-      "no": "+6283802608614"
-    },
-    {
-      "id": 6,
       "nama": "Adlan",
       "jabatan": "Anggota",
       "no": "+249999773569"
+    },
+    {
+      "id": 6,
+      "nama": "Hasan",
+      "jabatan": "Anggota",
+      "no": "+249118322805"
     },
     {
       "id": 7,

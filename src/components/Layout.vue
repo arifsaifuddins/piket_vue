@@ -10,6 +10,7 @@
       h-20
       shadow
       bg-white
+      dark:bg-slate-700
       justify-center
       sm:w-[400px]
       mx-auto
@@ -35,6 +36,7 @@
       items-end
       py-3
       bg-white
+      dark:bg-slate-700
       text-[#f59800]
       fixed
       bottom-0

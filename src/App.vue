@@ -2,6 +2,7 @@
   <div
     class="
       bg-white
+      dark:bg-slate-900 dark:text-slate-200
       text-slate-800
       h-[100vh]
       sm:w-[400px]

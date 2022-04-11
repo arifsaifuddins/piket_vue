@@ -21,6 +21,7 @@
           flex
           justify-between
           items-center
+          dark:bg-slate-700
         "
       >
         <h1 class="font-bold text-2xl text-[#f59800]">
@@ -54,6 +55,7 @@
           flex
           justify-center
           items-center
+          dark:bg-slate-700
         "
       >
         <h1 class="font-bold text-2xl text-[#f59800]">Temukan kami di :</h1>

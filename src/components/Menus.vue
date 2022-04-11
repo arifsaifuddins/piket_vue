@@ -33,6 +33,7 @@
             flex
             justify-between
             items-center
+            dark:bg-slate-700
           "
         >
           <h1 class="font-bold text-3xl text-[#f59800]">{{ menu.menu }}</h1>
@@ -54,8 +55,9 @@
                 pt-6
                 text-xl
                 hover:bg-slate-50
+                dark:hover:bg-slate-800
                 rounded-lg
-                hover:text-slate-800
+                hover:text-slate-200
                 text-[#f59800]
               "
             >
