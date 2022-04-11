@@ -4,6 +4,9 @@
   import { useRouter } from "vue-router";
 
   const router = useRouter();
+
+  const date = new Date();
+  const year = date.getFullYear();
 </script>
 
 <template>
@@ -17,7 +20,7 @@
         <img
           :src="`/assets/img/${json[0][$route.params.id].icon}.jpg`"
           alt="icon"
-          class="w-10 h-10 rounded-full inline mr-3"
+          class="w-10 h-10 rounded-full mr-3"
         />
         {{ json[0][$route.params.id].nama }}
       </div>
@@ -40,6 +43,45 @@
           border-slate-800
         "
       />
+      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
+        <div class="w-28 text-[#f59800]">Posisi</div>
+        <div class="">: {{ json[0][$route.params.id].jabatan }}</div>
+      </h1>
+      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
+        <div class="w-28 inline text-[#f59800]">Kuliah</div>
+        <div class="">: {{ json[0][$route.params.id].kuliah }}</div>
+      </h1>
+      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
+        <div class="w-28 inline text-[#f59800]">Kampus</div>
+        <div class="">: {{ json[0][$route.params.id].kampus }}</div>
+      </h1>
+      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
+        <div class="w-28 inline text-[#f59800]">Angkatan</div>
+        <div class="">
+          : {{ json[0][$route.params.id].angkatan }} - {{ year }}
+        </div>
+      </h1>
+      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
+        <div class="w-28 inline text-[#f59800]">Whatsapp</div>
+        <div class="">: {{ json[0][$route.params.id].no }}</div>
+      </h1>
+      <a
+        target="_blank"
+        :href="`https://wa.me//${json[0][$route.params.id].no}`"
+        class="
+          w-full
+          my-4
+          bg-[#f59800]
+          p-3
+          text-white
+          font-bold
+          text-xl
+          block
+          rounded-lg
+          text-center
+        "
+        ><i class="fab fa-whatsapp"></i> Whatsapp</a
+      >
     </div>
   </Layout>
 </template>
