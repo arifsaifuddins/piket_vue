@@ -6,11 +6,13 @@
     "daftar": [
       {
         "id": 0,
-        "judul": "Makanan"
+        "judul": "Makanan",
+        "icon": "bowl-food"
       },
       {
         "id": 1,
-        "judul": "Minuman"
+        "judul": "Minuman",
+        "icon": "champagne-glasses"
       }
     ]
   },
@@ -21,15 +23,18 @@
     "daftar": [
       {
         "id": 2,
-        "judul": "Takjil"
+        "judul": "Takjil",
+        "icon": "cheese"
       },
       {
         "id": 3,
-        "judul": "Buah"
+        "judul": "Buah",
+        "icon": "apple-whole"
       },
       {
         "id": 4,
-        "judul": "Minuman"
+        "judul": "Minuman",
+        "icon": "champagne-glasses"
       }
     ]
   },
@@ -40,11 +45,13 @@
     "daftar": [
       {
         "id": 5,
-        "judul": "Makanan"
+        "judul": "Makanan",
+        "icon": "bowl-food"
       },
       {
         "id": 6,
-        "judul": "Minuman"
+        "judul": "Minuman",
+        "icon": "champagne-glasses"
       }
     ]
   }

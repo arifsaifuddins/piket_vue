@@ -69,12 +69,10 @@
         </h1>
         <h1 class="text-4xl font-extrabold">
           Shalat | Cuaca
-          <img
-            src="/assets/svg/navbar/rotate.svg"
-            class="w-8 inline ml-2 cursor-pointer"
+          <i
+            class="fa fa-rotate text-3xl ml-2 cursor-pointer"
             @click="refresh()"
-            alt="refresh"
-          />
+          ></i>
         </h1>
       </div>
       <hr class="border-b-1 w-[98%] my-6 mx-auto border-slate-800" />

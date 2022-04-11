@@ -67,11 +67,7 @@
           :href="sosial.url"
           :key="sosial.name"
         >
-          <img
-            :src="'/assets/svg/sosial/' + sosial.name + '.svg'"
-            :alt="sosial.name"
-            class="w-8 h-8"
-          />
+          <i :class="`fab fa-${sosial.name} text-3xl`"></i>
         </a>
       </div>
       <footer class="text-center">Created &copy; 2022 | Khartoum</footer>

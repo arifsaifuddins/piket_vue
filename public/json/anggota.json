@@ -34,15 +34,15 @@
     },
     {
       "id": 4,
-      "nama": "Iqbal",
-      "jabatan": "Anggota",
-      "no": "+249999847074"
-    },
-    {
-      "id": 5,
       "nama": "Adlan",
       "jabatan": "Anggota",
       "no": "+249999773569"
+    },
+    {
+      "id": 5,
+      "nama": "Abdullah",
+      "jabatan": "Anggota",
+      "no": "+6287765140280"
     },
     {
       "id": 6,
@@ -58,9 +58,9 @@
     },
     {
       "id": 8,
-      "nama": "Abdullah",
+      "nama": "Iqbal",
       "jabatan": "Anggota",
-      "no": "+6287765140280"
+      "no": "+249999847074"
     }
   ]
 ]

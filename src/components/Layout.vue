@@ -48,19 +48,19 @@
     "
   >
     <router-link to="/menu" class="flex flex-col items-center">
-      <img src="/assets/svg/navbar/menu.svg" alt="menu" class="w-6 h-6" />
+      <i class="fas fa-utensils text-2xl"></i>
       <h3 class="text-sm mt-1">Menu</h3>
     </router-link>
     <router-link to="/anggota" class="flex flex-col items-center">
-      <img src="/assets/svg/navbar/users.svg" alt="anggota" class="w-6 h-6" />
+      <i class="fas fa-user-group text-2xl"></i>
       <h3 class="text-sm mt-1">Anggota</h3>
     </router-link>
     <router-link to="/shalat" class="flex flex-col items-center">
-      <img src="/assets/svg/navbar/shalat.svg" alt="anggota" class="w-6 h-6" />
+      <i class="fas fa-clock text-2xl"></i>
       <h3 class="text-sm mt-1">Shalat</h3>
     </router-link>
     <router-link to="/tentang" class="flex flex-col items-center">
-      <img src="/assets/svg/navbar/about.svg" alt="about" class="w-6 h-6" />
+      <i class="fas fa-list-check text-2xl"></i>
       <h3 class="text-sm mt-1">Tentang</h3>
     </router-link>
   </div>
@@ -69,7 +69,7 @@
 <style scoped>
   .router-link-active,
   .router-link-exact-active {
-    color: #111;
+    color: #000;
     font-weight: bolder;
   }
 </style>

@@ -37,11 +37,9 @@
           "
         >
           <h1 class="font-bold text-3xl text-[#f59800]">{{ menu.menu }}</h1>
-          <img
-            :src="`/assets/svg/navbar/${menu.icon}.svg`"
-            alt="icon"
-            class="w-8 h-8"
-          />
+          <i
+            :class="`fas fa-${menu.icon} text-3xl dark:text-slate-200 text-[#f59800]`"
+          ></i>
         </div>
         <div class="mb-10 mt-6">
           <router-link
@@ -52,20 +50,19 @@
             <div
               class="
                 p-3
-                pt-6
+                py-5
                 text-xl
                 hover:bg-slate-50
-                dark:hover:bg-slate-800
+                dark:hover:bg-slate-700 dark:hover:text-slate-200
                 rounded-lg
-                hover:text-slate-200
+                hover:text-slate-800
                 text-[#f59800]
               "
             >
-              <img
-                :src="`/assets/svg/${daf.judul}.svg`"
-                alt="icon"
-                class="w-8 h-8 inline mr-3"
-              />{{ daf.judul }}
+              <i
+                :class="`fas fa-${daf.icon} text-2xl mr-3 text-black dark:text-slate-200`"
+              ></i>
+              {{ daf.judul }}
             </div>
             <hr class="border-b-1 mb-2 w-[98%] mx-auto border-slate-800" />
           </router-link>

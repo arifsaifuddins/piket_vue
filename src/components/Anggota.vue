@@ -10,7 +10,7 @@
         class="
           w-full
           p-3
-          mb-10
+          mb-5
           shadow-md
           rounded-lg
           flex
@@ -53,7 +53,25 @@
         </div>
       </a>
 
-      <div class="grid grid-cols-3 w-full gap-3 mt-10">
+      <hr class="border-b-1 mb-2 w-[98%] mx-auto border-slate-800" />
+
+      <div
+        class="
+          w-full
+          p-3
+          mt-10
+          shadow-md
+          rounded-lg
+          flex
+          justify-center
+          items-center
+          dark:bg-slate-700
+        "
+      >
+        <h1 class="font-bold text-2xl text-[#f59800]">Anggota</h1>
+      </div>
+
+      <div class="grid grid-cols-3 w-full gap-3 mt-5">
         <a
           v-for="angg in json[1]"
           :href="`https://wa.me//${angg.no}`"

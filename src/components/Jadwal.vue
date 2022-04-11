@@ -10,11 +10,10 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/mosque.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Shubuh
+        <i
+          class="fas text-black dark:text-slate-200 fa-mosque mr-3 text-3xl"
+        ></i
+        >Shubuh
       </h1>
       <div
         class="
@@ -36,11 +35,8 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/sun.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Terbit
+        <i class="fas text-black dark:text-slate-200 fa-sun mr-3 text-3xl"></i
+        >Terbit
       </h1>
       <div
         class="
@@ -62,11 +58,10 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/mosque.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Dzuhur
+        <i
+          class="fas text-black dark:text-slate-200 fa-mosque mr-3 text-3xl"
+        ></i
+        >Dzuhur
       </h1>
       <div
         class="
@@ -88,11 +83,10 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/mosque.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Asar
+        <i
+          class="fas text-black dark:text-slate-200 fa-mosque mr-3 text-3xl"
+        ></i
+        >Asar
       </h1>
       <div
         class="
@@ -114,11 +108,10 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/mosque.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Maghrib
+        <i
+          class="fas text-black dark:text-slate-200 fa-mosque mr-3 text-3xl"
+        ></i
+        >Maghrib
       </h1>
       <div
         class="
@@ -140,11 +133,10 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/mosque.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Isya'
+        <i
+          class="fas text-black dark:text-slate-200 fa-mosque mr-3 text-3xl"
+        ></i
+        >Isya'
       </h1>
       <div
         class="
@@ -166,11 +158,8 @@
       class="w-full p-3 shadow-md rounded-lg flex justify-between items-center"
     >
       <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <img
-          src="/assets/svg/navbar/moon.svg"
-          alt="icon"
-          class="w-8 h-8 mr-3 inline"
-        />Imsak
+        <i class="fas text-black dark:text-slate-200 fa-moon mr-3 text-3xl"></i
+        >Imsak
       </h1>
       <div
         class="
