@@ -37,7 +37,6 @@
       py-3
       bg-white
       dark:bg-slate-700
-      text-[#f59800]
       fixed
       bottom-0
       right-0
@@ -69,7 +68,7 @@
 <style scoped>
   .router-link-active,
   .router-link-exact-active {
-    color: #000;
+    color: #f59800;
     font-weight: bolder;
   }
 </style>

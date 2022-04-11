@@ -11,12 +11,8 @@
     <div class="py-20 flex flex-col">
       <div v-for="menu in menus[$route.params.id]" :key="menu.nama">
         <div class="text-xl mb-5 flex items-center">
-          <img
-            @click="router.back()"
-            src="/assets/svg/navbar/back.svg"
-            alt="icon"
-            class="w-5 cursor-pointer inline mr-3"
-          />{{ `${menu.menu} - ${menu.kategori} - ${menu.nama}` }}
+          <div class="fa fa-arrow-left-long mr-3 cursor-pointer text-2xl"></div>
+          {{ `${menu.menu} - ${menu.kategori} - ${menu.nama}` }}
         </div>
         <img
           :src="`/assets/menu/${menu.gambar}.jpeg`"

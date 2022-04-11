@@ -9,12 +9,50 @@
     setInterval(() => {
       return (no.value = Math.ceil(Math.random() * 5).toString());
     }, 3000);
+
+    if (localStorage.key("mode")) {
+      document.querySelector(".mode").classList.add("justify-end");
+      document.querySelector("html").classList.add("dark");
+    }
   });
+
+  const darkMode = () => {
+    document.querySelector(".mode").classList.toggle("justify-end");
+    document.querySelector("html").classList.toggle("dark");
+
+    if (!localStorage.getItem("mode")) {
+      localStorage.setItem("mode", "dark");
+    } else {
+      localStorage.removeItem("mode");
+    }
+  };
 </script>
 
 <template>
   <Layout>
     <div class="py-20 flex flex-col">
+      <div class="p-3 flex justify-between items-center">
+        <div class="text-2xl font-bold">Dark Mode</div>
+        <div
+          class="
+            w-16
+            h-8
+            flex
+            items-center
+            px-1
+            rounded-full
+            cursor-pointer
+            shadow-md
+            mode
+            bg-slate-200
+          "
+          @click="darkMode()"
+        >
+          <div class="h-6 w-6 rounded-full bg-black dark:bg-[#f59800]"></div>
+        </div>
+      </div>
+      <hr class="border-b-1 mb-5 w-[98%] mx-auto border-slate-800" />
+
       <div class="mb-5">
         <img
           :src="`/assets/slide/ramadhan${no}.jpg`"
