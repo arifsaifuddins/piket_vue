@@ -10,9 +10,9 @@
   <Layout>
     <div class="py-20 px-3 flex flex-col">
       <div v-for="menu in menus[$route.params.id]" :key="menu.nama">
-        <div class="text-md mb-5 mt-2 flex items-center">
+        <div class="text-lg mb-5 mt-2 flex items-center">
           <i
-            class="fa fa-arrow-left font-bold mr-2 cursor-pointer text-md"
+            class="fa fa-arrow-left-long font-bold mr-2 cursor-pointer text-lg"
             @click="router.back()"
           ></i>
           {{ `${menu.menu} - ${menu.kategori} - ${menu.nama}` }}
