@@ -12,14 +12,13 @@
           p-3
           mb-5
           shadow-md
-          rounded-lg
           flex
           justify-center
           items-center
           dark:bg-slate-700
         "
       >
-        <h1 class="font-bold text-2xl text-[#f59800]">Anggota</h1>
+        <h1 class="font-bold text-2xl text-[#f59800]">Anggota I</h1>
       </div>
 
       <a
@@ -70,14 +69,13 @@
           p-3
           mt-10
           shadow-md
-          rounded-lg
           flex
           justify-center
           items-center
           dark:bg-slate-700
         "
       >
-        <h1 class="font-bold text-2xl text-[#f59800]">Anggota</h1>
+        <h1 class="font-bold text-2xl text-[#f59800]">Anggota II</h1>
       </div>
 
       <div class="grid grid-cols-3 w-full gap-3 mt-5">
@@ -88,7 +86,8 @@
           class="
             shadow
             rounded-lg
-            p-4
+            p-1
+            pb-4
             flex flex-col
             items-center
             hover:bg-slate-50
@@ -98,7 +97,7 @@
           <img
             :src="`/assets/img/${angg.nama}.jpg`"
             :alt="`${angg.nama}`"
-            class="rounded-full mb-4"
+            class="rounded-lg mb-4"
           />
           <h1 class="text-2xl font-bold">{{ angg.nama }}</h1>
           <h3 class="text-[#f59800] font-extrabold">{{ angg.jabatan }}</h3>

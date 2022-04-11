@@ -1,6 +1,6 @@
 <script setup>
   import Layout from "./Layout.vue";
-  import menus from "../../public/json/piket.json";
+  import menus from "../../public/json/menus.json";
   import { onMounted, ref } from "@vue/runtime-core";
 
   const no = ref("1");
@@ -30,7 +30,7 @@
 <template>
   <Layout>
     <div class="py-20 flex flex-col">
-      <div class="p-3 flex justify-between items-center">
+      <div class="py-3 px-1 flex justify-between items-center">
         <div class="text-2xl font-bold">Dark Mode</div>
         <div
           class="
@@ -40,8 +40,8 @@
             items-center
             rounded-full
             cursor-pointer
-            mode
             bg-slate-200
+            mode
           "
           @click="darkMode()"
         >
@@ -63,7 +63,7 @@
         <img
           :src="`/assets/slide/ramadhan${no}.jpg`"
           alt="slide"
-          class="w-full rounded-lg shadow-lg"
+          class="w-full shadow-lg"
         />
       </div>
 
@@ -80,9 +80,9 @@
             dark:bg-slate-700
           "
         >
-          <h1 class="font-bold text-3xl text-[#f59800]">{{ menu.menu }}</h1>
+          <h1 class="font-bold text-2xl text-[#f59800]">{{ menu.menu }}</h1>
           <i
-            :class="`fas fa-${menu.icon} text-3xl dark:text-slate-200 text-[#f59800]`"
+            :class="`fas fa-bars font-bold text-2xl dark:text-slate-200 text-[#f59800]`"
           ></i>
         </div>
         <div class="mb-10 mt-6">

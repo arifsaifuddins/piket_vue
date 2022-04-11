@@ -7,7 +7,7 @@
       top-0
       right-0
       left-0
-      h-20
+      py-3
       shadow
       bg-white
       dark:bg-slate-700
@@ -17,8 +17,8 @@
       w-full
     "
   >
-    <img src="/assets/icons/icon.png" alt="icon" class="w-14" />
-    <h1 class="text-4xl font-bold mx-3">
+    <img src="/assets/icons/icon.png" alt="icon" class="w-12" />
+    <h1 class="text-3xl font-bold mx-3">
       Piket
       <span class="bg-[#f59800] px-3 py-1 rounded-md text-white shadow-sm"
         >Sabtu</span
@@ -34,7 +34,7 @@
       flex
       justify-around
       items-end
-      py-3
+      py-2
       bg-white
       dark:bg-slate-700
       fixed
@@ -48,19 +48,19 @@
   >
     <router-link to="/menu" class="flex flex-col items-center">
       <i class="fas fa-utensils text-xl"></i>
-      <h3 class="text-sm mt-1">Menu</h3>
+      <h3 class="text-sm">Menu</h3>
     </router-link>
     <router-link to="/anggota" class="flex flex-col items-center">
-      <i class="fas fa-user-group text-xl"></i>
-      <h3 class="text-sm mt-1">Anggota</h3>
+      <i class="fas fa-user text-xl"></i>
+      <h3 class="text-sm">Anggota</h3>
     </router-link>
     <router-link to="/shalat" class="flex flex-col items-center">
       <i class="fas fa-clock text-xl"></i>
-      <h3 class="text-sm mt-1">Shalat</h3>
+      <h3 class="text-sm">Shalat</h3>
     </router-link>
     <router-link to="/tentang" class="flex flex-col items-center">
       <i class="fas fa-list-check text-xl"></i>
-      <h3 class="text-sm mt-1">Tentang</h3>
+      <h3 class="text-sm">Tentang</h3>
     </router-link>
   </div>
 </template>

@@ -6,6 +6,8 @@
       "nama": "Muhammad Akbar",
       "daerah": "Makassar, Sulawesi",
       "jabatan": "Ketua",
+      "kuliah": "Islamic Studies",
+      "angkatan": "2019",
       "no": "+249926180213"
     },
     {
@@ -13,7 +15,9 @@
       "icon": "Anas",
       "nama": "Azwar Anas",
       "daerah": "Sragen, Jawa Tengah",
-      "jabatan": "Musyrif",
+      "jabatan": "Pembimbing",
+      "kuliah": "Law And Sharia",
+      "angkatan": "2018",
       "no": "+249115483864"
     },
     {
@@ -22,6 +26,8 @@
       "nama": "Arief Saifuddien",
       "daerah": "Jepara, Jawa Tengah",
       "jabatan": "Koki",
+      "kuliah": "Islamic Studies",
+      "angkatan": "2018",
       "no": "+249121208279"
     }
   ],

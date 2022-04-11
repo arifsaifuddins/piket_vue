@@ -11,7 +11,10 @@
     <div class="py-20 flex flex-col">
       <div v-for="menu in menus[$route.params.id]" :key="menu.nama">
         <div class="text-xl mb-5 flex items-center">
-          <div class="fa fa-arrow-left-long mr-3 cursor-pointer text-2xl"></div>
+          <i
+            class="fa fa-arrow-left-long mr-3 cursor-pointer text-2xl"
+            @click="router.back()"
+          ></i>
           {{ `${menu.menu} - ${menu.kategori} - ${menu.nama}` }}
         </div>
         <img

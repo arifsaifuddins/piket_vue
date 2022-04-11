@@ -61,13 +61,12 @@
       <div class="p-4 text-center">
         <h1 class="text-8xl mb-8 font-bold w-full">
           {{ Math.ceil(parseInt(cuaca)) }}
-          <div class="text-4xl align-top inline">&deg;</div>
-          c
+          <div class="text-7xl inline">&deg;C</div>
         </h1>
         <h1 class="text-xl text-[#f59800] mb-4">
           {{ `Wilayah ${kotaLoc}, ${negaraLoc}` }}
         </h1>
-        <h1 class="text-4xl font-extrabold">
+        <h1 class="text-3xl font-extrabold">
           Shalat | Cuaca
           <i
             class="fa fa-rotate text-3xl ml-2 cursor-pointer"
