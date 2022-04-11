@@ -16,6 +16,7 @@
           justify-center
           items-center
           dark:bg-slate-700
+          bg-slate-50
         "
       >
         <h1 class="font-bold text-2xl text-[#f59800]">Anggota I</h1>
@@ -73,6 +74,7 @@
           justify-center
           items-center
           dark:bg-slate-700
+          bg-slate-50
         "
       >
         <h1 class="font-bold text-2xl text-[#f59800]">Anggota II</h1>
@@ -86,8 +88,8 @@
           class="
             shadow
             rounded-lg
-            p-1
             pb-4
+            overflow-hidden
             flex flex-col
             items-center
             hover:bg-slate-50
@@ -97,10 +99,12 @@
           <img
             :src="`/assets/img/${angg.nama}.jpg`"
             :alt="`${angg.nama}`"
-            class="rounded-lg mb-4"
+            class="mb-3"
           />
-          <h1 class="text-2xl font-bold">{{ angg.nama }}</h1>
-          <h3 class="text-[#f59800] font-extrabold">{{ angg.jabatan }}</h3>
+          <h1 class="text-xl font-bold">{{ angg.nama }}</h1>
+          <h3 class="text-[#f59800] text-sm font-extrabold">
+            {{ angg.jabatan }}
+          </h3>
         </a>
       </div>
     </div>
