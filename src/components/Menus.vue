@@ -35,14 +35,12 @@
         <div class="text-2xl font-bold">Dark Mode</div>
         <div
           class="
-            w-16
-            h-8
+            w-12
+            h-4
             flex
             items-center
-            px-1
             rounded-full
             cursor-pointer
-            shadow-md
             mode
             bg-slate-200
           "
