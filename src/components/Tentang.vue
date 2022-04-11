@@ -10,7 +10,15 @@
         <img src="/assets/icons/icon.png" alt="icon" class="w-52 mx-auto" />
         <h1 class="mt-5 text-3xl font-extrabold">Piket Sabtu Ramadhan</h1>
       </div>
-      <hr class="border-b-1 w-[98%] mx-auto border-slate-800" />
+      <hr
+        class="
+          border-b-1
+          w-[98%]
+          mx-auto
+          dark:border-slate-200
+          border-slate-800
+        "
+      />
       <div
         class="
           w-full
@@ -42,7 +50,15 @@
             class="w-8 h-8 inline mr-3"
           />{{ tech.name }}
         </div>
-        <hr class="border-b-1 w-[98%] mx-auto border-slate-800" />
+        <hr
+          class="
+            border-b-1
+            w-[98%]
+            mx-auto
+            dark:border-slate-200
+            border-slate-800
+          "
+        />
       </a>
 
       <div

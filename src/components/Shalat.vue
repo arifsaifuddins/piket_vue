@@ -75,7 +75,16 @@
           ></i>
         </h1>
       </div>
-      <hr class="border-b-1 w-[98%] my-6 mx-auto border-slate-800" />
+      <hr
+        class="
+          border-b-1
+          w-[98%]
+          my-6
+          mx-auto
+          dark:border-slate-200
+          border-slate-800
+        "
+      />
       <div class="flex flex-col">
         <Jadwal :jadwal="jadwal" />
       </div>

@@ -46,7 +46,16 @@
           "
           >Baca Lebih Lanjut...</a
         >
-        <hr class="border-b-1 my-4 w-[98%] mx-auto border-slate-800" />
+        <hr
+          class="
+            border-b-1
+            my-4
+            w-[98%]
+            mx-auto
+            dark:border-slate-200
+            border-slate-800
+          "
+        />
       </div>
     </div>
   </Layout>

@@ -49,7 +49,16 @@
           <div class="h-6 w-6 rounded-full bg-black dark:bg-[#f59800]"></div>
         </div>
       </div>
-      <hr class="border-b-1 mb-5 w-[98%] mx-auto border-slate-800" />
+      <hr
+        class="
+          border-b-1
+          mb-5
+          w-[98%]
+          mx-auto
+          dark:border-slate-200
+          border-slate-800
+        "
+      />
 
       <div class="mb-5">
         <img
@@ -63,7 +72,7 @@
         <div
           class="
             w-full
-            p-6
+            p-5
             shadow-md
             rounded-lg
             flex
@@ -100,7 +109,16 @@
               ></i>
               {{ daf.judul }}
             </div>
-            <hr class="border-b-1 mb-2 w-[98%] mx-auto border-slate-800" />
+            <hr
+              class="
+                border-b-1
+                mb-2
+                w-[98%]
+                mx-auto
+                dark:border-slate-200
+                border-slate-800
+              "
+            />
           </router-link>
         </div>
       </div>

@@ -38,7 +38,7 @@
           rounded-lg
           shadow
           bg-white
-          mb-5
+          mb-3
         "
       >
         <img
@@ -53,7 +53,16 @@
         </div>
       </a>
 
-      <hr class="border-b-1 mb-2 w-[98%] mx-auto border-slate-800" />
+      <hr
+        class="
+          border-b-1
+          mb-2
+          w-[98%]
+          mx-auto
+          border-slate-800
+          dark:border-slate-200
+        "
+      />
 
       <div
         class="
