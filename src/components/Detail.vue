@@ -12,15 +12,15 @@
 <template>
   <Layout>
     <div class="py-20 px-3 flex flex-col">
-      <div class="text-md mt-3 mb-10 flex justify-start items-center">
+      <div class="text-md mt-3 mb-10 flex justify-start font-bold items-center">
         <i
-          class="fa fa-arrow-left mr-3 cursor-pointer text-md"
+          class="fa fa-arrow-left mr-2 cursor-pointer text-md"
           @click="router.back()"
         ></i>
         <img
           :src="`/assets/img/${json[0][$route.params.id].icon}.jpg`"
           alt="icon"
-          class="w-8 h-8 rounded-full mr-3"
+          class="w-8 h-8 rounded-full mr-2"
         />
         {{ json[0][$route.params.id].nama }}
       </div>
