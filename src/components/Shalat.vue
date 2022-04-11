@@ -3,6 +3,7 @@
   import { onMounted } from "@vue/runtime-core";
   import Layout from "./Layout.vue";
   import Jadwal from "./Jadwal.vue";
+  import { useRouter } from "vue-router";
 
   const kota = ref("Khartoum");
   const negara = ref("Sudan");
@@ -50,8 +51,10 @@
       });
   };
 
+  const route = useRouter();
+
   const refresh = () => {
-    return (window.location.href = "/");
+    return route.push("/shalat");
   };
 </script>
 
