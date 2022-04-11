@@ -8,8 +8,8 @@
 
 <template>
   <Layout>
-    <div class="py-20 flex flex-col">
-      <div class="text-xl my-5 mb-10 flex justify-start items-center">
+    <div class="py-20 px-3 flex flex-col">
+      <div class="text-xl mt-3 mb-10 flex justify-start items-center">
         <i
           class="fa fa-arrow-left-long mr-3 cursor-pointer text-2xl"
           @click="router.back()"

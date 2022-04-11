@@ -32,12 +32,12 @@
           p-4
           flex
           hover:bg-slate-50
-          dark:hover:bg-slate-600 dark:bg-slate-700
+          dark:hover:bg-slate-800
           justify-start
           items-center
           rounded-lg
           shadow
-          bg-white
+          dark:shadow-slate-600
           mb-3
         "
       >
@@ -93,7 +93,7 @@
             flex flex-col
             items-center
             hover:bg-slate-50
-            dark:hover:bg-slate-600 dark:bg-slate-700
+            dark:hover:bg-slate-800 dark:shadow-slate-600
           "
         >
           <img
