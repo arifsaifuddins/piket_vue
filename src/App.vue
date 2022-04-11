@@ -1,3 +1,13 @@
+<script setup>
+  import { onMounted } from "@vue/runtime-core";
+
+  onMounted(() => {
+    if (localStorage.key("mode")) {
+      document.querySelector("html").classList.add("dark");
+    }
+  });
+</script>
+
 <template>
   <div
     class="

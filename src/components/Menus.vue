@@ -12,7 +12,6 @@
 
     if (localStorage.key("mode")) {
       document.querySelector(".mode").classList.add("justify-end");
-      document.querySelector("html").classList.add("dark");
     }
   });
 
