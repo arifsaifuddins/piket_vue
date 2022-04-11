@@ -12,7 +12,7 @@
       <div v-for="menu in menus[$route.params.id]" :key="menu.nama">
         <div class="text-md mb-5 mt-2 flex items-center">
           <i
-            class="fa fa-arrow-left-long mr-2 cursor-pointer text-md"
+            class="fa fa-arrow-left font-bold mr-2 cursor-pointer text-md"
             @click="router.back()"
           ></i>
           {{ `${menu.menu} - ${menu.kategori} - ${menu.nama}` }}
