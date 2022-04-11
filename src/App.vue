@@ -18,7 +18,7 @@
       sm:w-[400px]
       mx-auto
       w-full
-      p-5
+      px-3
       overflow-x-hidden
       shadow
     "

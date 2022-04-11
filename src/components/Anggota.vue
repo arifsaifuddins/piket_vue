@@ -11,22 +11,22 @@
           w-full
           p-3
           mb-5
+          mt-4
           shadow-md
           flex
           justify-center
           items-center
-          dark:bg-slate-700
-          bg-slate-50
+          bg-[#f59800]
+          rounded-lg
         "
       >
-        <h1 class="font-bold text-2xl text-[#f59800]">Anggota I</h1>
+        <h1 class="font-bold text-2xl text-white">Anggota I</h1>
       </div>
 
-      <a
+      <router-link
         v-for="peng in json[0]"
-        :href="'https://wa.me//' + peng.no"
+        :to="`/anggota/${peng.id}`"
         :key="peng.id"
-        target="_blank"
         class="
           w-full
           p-4
@@ -51,7 +51,7 @@
           <h3 class="text-lg">{{ peng.daerah }}</h3>
           <h3 class="text-[#f59800] font-extrabold">{{ peng.jabatan }}</h3>
         </div>
-      </a>
+      </router-link>
 
       <hr
         class="
@@ -73,11 +73,11 @@
           flex
           justify-center
           items-center
-          dark:bg-slate-700
-          bg-slate-50
+          bg-[#f59800]
+          rounded-lg
         "
       >
-        <h1 class="font-bold text-2xl text-[#f59800]">Anggota II</h1>
+        <h1 class="font-bold text-2xl text-white">Anggota II</h1>
       </div>
 
       <div class="grid grid-cols-3 w-full gap-3 mt-5">

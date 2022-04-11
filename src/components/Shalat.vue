@@ -59,9 +59,9 @@
   <Layout>
     <div class="py-20 flex flex-col">
       <div class="p-4 text-center">
-        <h1 class="text-8xl mb-8 font-bold w-full">
+        <h1 class="text-7xl mb-8 font-bold w-full">
           {{ Math.ceil(parseInt(cuaca)) }}
-          <div class="text-7xl inline">&deg;C</div>
+          <div class="text-6xl inline">&deg;C</div>
         </h1>
         <h1 class="text-xl text-[#f59800] mb-4">
           {{ `Wilayah ${kotaLoc}, ${negaraLoc}` }}

@@ -7,6 +7,7 @@ import NotFound from "./components/NotFound.vue";
 import Tentang from "./components/Tentang.vue";
 import Anggota from "./components/Anggota.vue";
 import Shalat from "./components/Shalat.vue";
+import Detail from "./components/Detail.vue";
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     name: 'Param',
     path: '/:id',
     component: Menu
+  },
+  {
+    name: 'Detail',
+    path: '/anggota/:id',
+    component: Detail
   },
   {
     path: '/:pathMatch(.*)*',

@@ -35,7 +35,7 @@
           text-white
         "
       >
-        {{ jadwal.Fajr }}
+        {{ jadwal.Fajr || "04:30" }}
       </div>
     </div>
     <div
@@ -67,7 +67,7 @@
           text-white
         "
       >
-        {{ jadwal.Sunrise }}
+        {{ jadwal.Sunrise || "05:35" }}
       </div>
     </div>
     <div
@@ -99,7 +99,7 @@
           text-white
         "
       >
-        {{ jadwal.Dhuhr }}
+        {{ jadwal.Dhuhr || "12:00" }}
       </div>
     </div>
     <div
@@ -131,7 +131,7 @@
           text-white
         "
       >
-        {{ jadwal.Asr }}
+        {{ jadwal.Asr || "15:15" }}
       </div>
     </div>
     <div
@@ -163,7 +163,7 @@
           text-white
         "
       >
-        {{ jadwal.Maghrib }}
+        {{ jadwal.Maghrib || "18:00" }}
       </div>
     </div>
     <div
@@ -195,7 +195,7 @@
           text-white
         "
       >
-        {{ jadwal.Isha }}
+        {{ jadwal.Isha || "19:25" }}
       </div>
     </div>
     <div
@@ -227,7 +227,7 @@
           text-white
         "
       >
-        {{ jadwal.Imsak }}
+        {{ jadwal.Imsak || "04:15" }}
       </div>
     </div>
   </div>
