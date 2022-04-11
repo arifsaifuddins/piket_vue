@@ -30,9 +30,10 @@
           alt="icon"
           class="w-48 h-48 rounded-full mx-auto"
         />
-        <h1 class="mt-6 text-3xl font-extrabold">
+        <h1 class="mt-6 mb-4 text-3xl font-extrabold">
           {{ json[0][$route.params.id].nama }}
         </h1>
+        <div>{{ json[0][$route.params.id].no }}</div>
       </div>
       <hr
         class="
@@ -44,26 +45,24 @@
         "
       />
       <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
+        <div class="w-28 text-[#f59800]">Daerah</div>
+        <div>: {{ json[0][$route.params.id].daerah }}</div>
+      </h1>
+      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
         <div class="w-28 text-[#f59800]">Posisi</div>
-        <div class="">: {{ json[0][$route.params.id].jabatan }}</div>
+        <div>: {{ json[0][$route.params.id].jabatan }}</div>
       </h1>
       <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
         <div class="w-28 inline text-[#f59800]">Kuliah</div>
-        <div class="">: {{ json[0][$route.params.id].kuliah }}</div>
+        <div>: {{ json[0][$route.params.id].kuliah }}</div>
       </h1>
       <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
         <div class="w-28 inline text-[#f59800]">Kampus</div>
-        <div class="">: {{ json[0][$route.params.id].kampus }}</div>
+        <div>: {{ json[0][$route.params.id].kampus }}</div>
       </h1>
       <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
         <div class="w-28 inline text-[#f59800]">Angkatan</div>
-        <div class="">
-          : {{ json[0][$route.params.id].angkatan }} - {{ year }}
-        </div>
-      </h1>
-      <h1 class="mt-3 p-2 flex items-start text-xl font-bold">
-        <div class="w-28 inline text-[#f59800]">Whatsapp</div>
-        <div class="">: {{ json[0][$route.params.id].no }}</div>
+        <div>: {{ json[0][$route.params.id].angkatan }} - {{ year }}</div>
       </h1>
       <a
         target="_blank"
