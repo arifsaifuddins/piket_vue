@@ -71,7 +71,8 @@
         <div
           class="
             w-full
-            p-5
+            p-3
+            px-4
             shadow-md
             rounded-lg
             flex

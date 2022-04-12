@@ -23,6 +23,7 @@
         class="
           w-full
           p-3
+          px-4
           mt-16
           shadow-md
           rounded-lg
