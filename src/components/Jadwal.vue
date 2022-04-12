@@ -18,8 +18,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-xl"></i
         >Shubuh
       </h1>
       <div
@@ -27,8 +27,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
@@ -50,8 +50,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-sun mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-sun mr-3 text-xl"></i
         >Terbit
       </h1>
       <div
@@ -59,8 +59,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
@@ -82,8 +82,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-xl"></i
         >Dzuhur
       </h1>
       <div
@@ -91,8 +91,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
@@ -114,8 +114,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-xl"></i
         >Asar
       </h1>
       <div
@@ -123,8 +123,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
@@ -146,8 +146,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-xl"></i
         >Maghrib
       </h1>
       <div
@@ -155,8 +155,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
@@ -178,8 +178,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-clock mr-3 text-xl"></i
         >Isya'
       </h1>
       <div
@@ -187,8 +187,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
@@ -210,8 +210,8 @@
         items-center
       "
     >
-      <h1 class="text-[#f59800] font-bold text-2xl flex items-center">
-        <i class="fas text-black dark:text-slate-200 fa-moon mr-3 text-2xl"></i
+      <h1 class="text-[#f59800] font-bold text-xl flex items-center">
+        <i class="fas text-black dark:text-slate-200 fa-moon mr-3 text-xl"></i
         >Imsak
       </h1>
       <div
@@ -219,8 +219,8 @@
           bg-[#f59800]
           shadow-lg
           h-full
-          px-4
-          py-2
+          px-3
+          py-1
           font-extrabold
           text-2xl
           rounded-lg
