@@ -30,7 +30,7 @@
     >
       <div class="text-xl flex justify-start items-center">
         <i
-          class="fa fa-arrow-left-long mr-2 cursor-pointer text-lg"
+          class="fa fa-arrow-left-long mr-2 cursor-pointer text-xl"
           @click="router.back()"
         ></i>
         <img

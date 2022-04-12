@@ -132,7 +132,7 @@
           type="text"
           class="
             bg-transparent
-            p-3
+            p-2
             text-xl
             outline-none
             focus:border-[#f59800]
@@ -151,7 +151,7 @@
           type="text"
           class="
             bg-transparent
-            p-3
+            p-2
             text-xl
             outline-none
             focus:border-[#f59800]
@@ -172,13 +172,14 @@
           mt-4
           bg-[#f59800]
           hover:bg-[#f58500]
-          p-3
+          p-2
           shadow
           rounded-lg
           text-center
           font-bold
-          text-2xl text-white
+          text-xl text-white
           cursor-pointer
+          dark:bg-slate-700
         "
         @click="fetchData()"
       >

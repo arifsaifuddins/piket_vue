@@ -18,9 +18,10 @@
           items-center
           bg-[#f59800]
           rounded-lg
+          dark:bg-slate-700
         "
       >
-        <h1 class="font-bold text-2xl text-white">Anggota I</h1>
+        <h1 class="font-bold text-xl text-white">Anggota I</h1>
       </div>
 
       <router-link
@@ -29,7 +30,8 @@
         :key="peng.id"
         class="
           w-full
-          p-4
+          py-2
+          px-4
           flex
           hover:bg-slate-50
           dark:hover:bg-slate-800
@@ -47,22 +49,11 @@
           class="w-24 mr-4 rounded-full"
         />
         <div class="flex flex-col">
-          <h1 class="text-2xl font-bold">{{ peng.nama }}</h1>
-          <h3 class="text-lg">{{ peng.daerah }}</h3>
+          <h1 class="text-xl font-bold">{{ peng.nama }}</h1>
+          <h3 class="text-md">{{ peng.daerah }}</h3>
           <h3 class="text-[#f59800] font-extrabold">{{ peng.jabatan }}</h3>
         </div>
       </router-link>
-
-      <hr
-        class="
-          border-b-1
-          mb-2
-          w-[98%]
-          mx-auto
-          border-slate-800
-          dark:border-slate-200
-        "
-      />
 
       <div
         class="
@@ -75,9 +66,10 @@
           items-center
           bg-[#f59800]
           rounded-lg
+          dark:bg-slate-700
         "
       >
-        <h1 class="font-bold text-2xl text-white">Anggota II</h1>
+        <h1 class="font-bold text-xl text-white">Anggota II</h1>
       </div>
 
       <div class="grid grid-cols-3 w-full gap-3 mt-5">

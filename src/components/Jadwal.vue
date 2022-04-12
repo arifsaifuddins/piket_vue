@@ -28,7 +28,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg
@@ -60,7 +61,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg
@@ -92,7 +94,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg
@@ -124,7 +127,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg
@@ -156,7 +160,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg
@@ -188,7 +193,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg
@@ -220,7 +226,8 @@
           shadow-lg
           h-full
           px-3
-          py-1
+          py-2
+          dark:bg-slate-700
           font-extrabold
           text-2xl
           rounded-lg

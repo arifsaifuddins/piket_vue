@@ -14,7 +14,7 @@
       top-0
       right-0
       left-0
-      py-5
+      py-3
       shadow
       bg-white
       dark:bg-slate-700

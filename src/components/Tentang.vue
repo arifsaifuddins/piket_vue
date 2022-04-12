@@ -7,7 +7,7 @@
   <Layout>
     <div class="py-20">
       <div class="p-4 text-center">
-        <img src="/assets/icons/icon.png" alt="icon" class="w-52 mx-auto" />
+        <img src="/assets/icons/icon.png" alt="icon" class="w-32 mx-auto" />
         <h1 class="mt-5 text-3xl font-extrabold">Piket Sabtu Ramadhan</h1>
       </div>
       <hr
@@ -32,7 +32,7 @@
           dark:bg-slate-700
         "
       >
-        <h1 class="font-bold text-2xl text-[#f59800]">
+        <h1 class="font-bold text-xl text-[#f59800]">
           Dibuat dengan Teknologi :
         </h1>
       </div>
@@ -43,7 +43,7 @@
         :href="tech.url"
         :key="tech.name"
       >
-        <div class="p-3 pt-6 text-xl">
+        <div class="p-3 pt-6 text-lg">
           <img
             :src="'/assets/logo/' + tech.icon + '.png'"
             alt="icon"
@@ -74,7 +74,7 @@
           dark:bg-slate-700
         "
       >
-        <h1 class="font-bold text-2xl text-[#f59800]">Temukan kami di :</h1>
+        <h1 class="font-bold text-xl text-[#f59800]">Temukan kami di :</h1>
       </div>
       <div class="my-10 w-full flex justify-around items-center">
         <a

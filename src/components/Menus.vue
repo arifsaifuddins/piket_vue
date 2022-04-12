@@ -34,8 +34,8 @@
         <div class="text-2xl font-bold">Mode Gelap</div>
         <div
           class="
-            w-12
-            h-4
+            w-10
+            h-2
             flex
             items-center
             rounded-full
@@ -45,7 +45,7 @@
           "
           @click="darkMode()"
         >
-          <div class="h-6 w-6 rounded-full bg-black dark:bg-[#f59800]"></div>
+          <div class="h-5 w-5 rounded-full bg-black dark:bg-[#f59800]"></div>
         </div>
       </div>
       <hr
