@@ -9,6 +9,7 @@
 </script>
 
 <template>
+<<<<<<< HEAD
   <div class="flex flex-col">
     <div
       class="
@@ -29,14 +30,19 @@
       "
     >
       <div class="text-xl flex justify-start items-center">
+=======
+  <Layout>
+    <div class="py-20 px-3 flex flex-col">
+      <div class="text-lg mt-3 mb-10 flex justify-start font-bold items-center">
+>>>>>>> 9d3e71458475d4690ad817589a5ff22823d1a52e
         <i
-          class="fa fa-arrow-left-long mr-3 cursor-pointer text-2xl"
+          class="fa fa-arrow-left-long mr-2 cursor-pointer text-lg"
           @click="router.back()"
         ></i>
         <img
           :src="`/assets/img/${json[0][$route.params.id].icon}.jpg`"
           alt="icon"
-          class="w-10 h-10 rounded-full mr-3"
+          class="w-8 h-8 rounded-full mr-2"
         />
         {{ json[0][$route.params.id].nama }}
       </div>
