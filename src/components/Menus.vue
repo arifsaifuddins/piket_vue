@@ -31,7 +31,7 @@
   <Layout>
     <div class="py-20 flex flex-col">
       <div class="py-3 px-1 flex justify-between items-center">
-        <div class="text-2xl font-bold">Dark Mode</div>
+        <div class="text-2xl font-bold">Mode Gelap</div>
         <div
           class="
             w-12

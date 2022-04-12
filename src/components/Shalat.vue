@@ -3,13 +3,16 @@
   import { onMounted } from "@vue/runtime-core";
   import Layout from "./Layout.vue";
   import Jadwal from "./Jadwal.vue";
-  import { useRouter } from "vue-router";
 
   const kota = ref("Khartoum");
   const negara = ref("Sudan");
 
   const kotaLoc = ref("Khartoum");
   const negaraLoc = ref("Sudan");
+  const uv = ref("1");
+  const kondisi = ref("Clear");
+  const time = ref("Africa/Khartoum");
+  const baru = ref("2022-04-13 00:30");
 
   const cuaca = ref(30);
   const jadwal = ref({});
@@ -24,6 +27,10 @@
     )
       .then((res) => res.json())
       .then((res) => {
+        uv.value = res.current.uv;
+        time.value = res.location.tz_id;
+        baru.value = res.current.last_updated;
+        kondisi.value = res.current.condition.text;
         cuaca.value = res.current.temp_c;
         kotaLoc.value = res.location.name;
         negaraLoc.value = res.location.country;
@@ -51,10 +58,11 @@
       });
   };
 
-  const route = useRouter();
+  const refresh = (kot, neg) => {
+    kota.value = kot;
+    negara.value = neg;
 
-  const refresh = () => {
-    return route.push("/shalat");
+    return fetchData();
   };
 </script>
 
@@ -73,7 +81,7 @@
           Shalat | Cuaca
           <i
             class="fa fa-rotate text-3xl ml-2 cursor-pointer"
-            @click="refresh()"
+            @click="refresh('khartoum', 'sudan')"
           ></i>
         </h1>
       </div>
@@ -81,13 +89,42 @@
         class="
           border-b-1
           w-[98%]
-          my-6
+          mt-6
+          mb-3
           mx-auto
           dark:border-slate-200
           border-slate-800
         "
       />
-      <div class="flex flex-col">
+      <div class="text-md">
+        <div class="flex px-3 justify-between">
+          <h3>Kondisi</h3>
+          <h3>{{ kondisi }}</h3>
+        </div>
+        <div class="flex px-3 justify-between">
+          <h3>UV</h3>
+          <h3>{{ uv }}</h3>
+        </div>
+        <div class="flex px-3 justify-between">
+          <h3>Zona Waktu</h3>
+          <h3>{{ time }}</h3>
+        </div>
+        <div class="flex px-3 justify-between">
+          <h3>Diperbarui Saat</h3>
+          <h3>{{ baru }}</h3>
+        </div>
+      </div>
+      <hr
+        class="
+          border-b-1
+          w-[98%]
+          mt-3
+          mx-auto
+          dark:border-slate-200
+          border-slate-800
+        "
+      />
+      <div class="flex mt-6 flex-col">
         <Jadwal :jadwal="jadwal" />
       </div>
       <div class="mt-10 w-full flex">
