@@ -25,7 +25,7 @@
         sm:w-[400px]
         mx-auto
         w-full
-        px-6
+        px-5
       "
     >
       <div class="text-xl flex justify-start items-center">

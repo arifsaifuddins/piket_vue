@@ -14,14 +14,14 @@
       top-0
       right-0
       left-0
-      py-5
+      py-6
       shadow
       bg-white
       dark:bg-slate-700
       sm:w-[400px]
       mx-auto
       w-full
-      px-6
+      px-5
     "
   >
     <div class="text-xl flex items-center">
@@ -36,7 +36,7 @@
       }}
     </div>
   </div>
-  <div class="pt-20 px-3 flex flex-col">
+  <div class="pt-20 px-1 flex flex-col">
     <div v-for="menu in menus[$route.params.id]" :key="menu.nama">
       <div class="text-xl pl-2 mt-3 flex items-center">
         {{ menu.nama }}
