@@ -89,6 +89,7 @@
         block
         rounded-lg
         text-center
+        dark:bg-slate-700
       "
       ><i class="fab fa-whatsapp"></i> Whatsapp</a
     >

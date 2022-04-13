@@ -81,6 +81,7 @@
           block
           rounded-lg
           text-center
+          dark:bg-slate-700
         "
         >Baca Lebih Lanjut...</a
       >

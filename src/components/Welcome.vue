@@ -22,6 +22,7 @@
           block
           shadow-lg
           text-2xl
+          dark:bg-slate-700
         "
         >Lihat Menu Puasa
       </router-link>
