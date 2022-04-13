@@ -14,14 +14,13 @@
       top-0
       right-0
       left-0
-      py-6
+      p-5
       shadow
       bg-white
       dark:bg-slate-700
       sm:w-[400px]
       mx-auto
       w-full
-      px-5
     "
   >
     <div class="text-xl flex items-center">

@@ -39,7 +39,7 @@
           items-center
           rounded-lg
           shadow
-          dark:shadow-slate-600
+          dark:shadow-black dark:shadow-sm
           mb-3
         "
       >
@@ -85,7 +85,7 @@
             flex flex-col
             items-center
             hover:bg-slate-50
-            dark:hover:bg-slate-800 dark:shadow-slate-600
+            dark:hover:bg-slate-800 dark:shadow-black dark:shadow-sm
           "
         >
           <img
