@@ -71,7 +71,7 @@
             <h1
               class="
                 font-bold
-                text-2xl
+                text-xl
                 font-[DroidarabickufiRegular]
                 text-[#f59800]
               "
