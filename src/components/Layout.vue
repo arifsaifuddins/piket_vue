@@ -7,7 +7,7 @@
       top-0
       right-0
       left-0
-      py-4
+      py-3
       px-8
       shadow
       bg-white
