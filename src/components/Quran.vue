@@ -61,15 +61,7 @@
             class="flex items-center w-full mr-3"
           >
             <i
-              class="
-                fas
-                fa-book
-                font-bold
-                text-2xl
-                mr-4
-                dark:text-slate-200
-                text-[#f59800]
-              "
+              class="fas fa-book font-bold text-2xl mr-4 dark:text-slate-200"
             ></i>
             <h1
               class="
@@ -90,7 +82,6 @@
               font-bold
               text-2xl
               dark:text-slate-200
-              text-[#f59800]
               transition-all
               duration-300
             "

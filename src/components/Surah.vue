@@ -9,6 +9,7 @@
   const surah = ref();
   const nama = ref();
   const arab = ref();
+  const pre = ref();
   const basmalah = ref();
 
   onMounted(() => {
@@ -20,9 +21,10 @@
       .then((res) => res.json())
       .then((res) => {
         surah.value = res.data.verses;
-        arab.value = res.data.name.long;
-        basmalah.value = res.data.preBismillah.text.arab;
         nama.value = res.data.name.transliteration.id;
+        arab.value = res.data.name.long;
+        pre.value = res.data.preBismillah;
+        basmalah.value = res.data.preBismillah.text.arab;
       });
   };
 </script>
@@ -76,6 +78,7 @@
     </div>
     <div class="flex flex-col">
       <h1
+        v-if="pre != null"
         class="
           font-[DroidarabickufiRegular]
           mt-4
