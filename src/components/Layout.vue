@@ -1,3 +1,10 @@
+<script setup>
+  import { useRouter } from "vue-router";
+
+  const router = useRouter();
+</script>
+
+
 <template>
   <div
     class="
@@ -7,7 +14,8 @@
       top-0
       right-0
       left-0
-      py-3
+      z-20
+      py-4
       px-8
       shadow
       bg-white
@@ -18,8 +26,16 @@
       w-full
     "
   >
-    <img src="/assets/icons/icon.png" alt="icon" class="w-10" />
-    <h1 class="font-bold mx-3 text-2xl">
+    <img
+      src="/assets/icons/icon.png"
+      alt="icon"
+      class="w-8 cursor-pointer"
+      @click="router.push('/menu')"
+    />
+    <h1
+      class="font-bold mx-3 text-2xl cursor-pointer"
+      @click="router.push('/')"
+    >
       Piket
       <span class="bg-[#f59800] px-3 py-1 rounded-md text-white shadow-sm"
         >Sabtu</span
@@ -34,6 +50,7 @@
 
   <div
     class="
+      z-20
       shadow
       flex
       justify-around

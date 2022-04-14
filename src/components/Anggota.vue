@@ -30,8 +30,7 @@
         :key="peng.id"
         class="
           w-full
-          py-2
-          px-4
+          p-4
           flex
           hover:bg-slate-50
           dark:hover:bg-slate-800
@@ -46,7 +45,7 @@
         <img
           :src="`/assets/img/${peng.icon}.jpg`"
           :alt="`${peng.icon}`"
-          class="w-24 mr-4 rounded-full"
+          class="w-20 mr-4 rounded-full"
         />
         <div class="flex flex-col">
           <h1 class="text-xl font-bold">{{ peng.nama }}</h1>

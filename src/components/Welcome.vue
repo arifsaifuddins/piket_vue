@@ -14,7 +14,7 @@
         to="/menu"
         class="
           bg-[#f59800]
-          p-4
+          p-3
           rounded-md
           text-white
           font-extrabold
