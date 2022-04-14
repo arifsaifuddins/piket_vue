@@ -93,27 +93,28 @@
       >
         {{ basmalah }}
       </h1>
-      <div
-        v-for="ayat in surah"
-        :key="ayat.number.inSurah"
-        class="
-          flex flex-col
-          rounded-xl
-          mb-3
-          overflow-hidden
-          bg-slate-100
-          dark:bg-slate-800
-        "
-      >
-        <h1
-          class="text-2xl text-right font-bold font-[ScheherazadeRegular] p-4"
+      <div v-for="ayat in surah" :key="ayat.number.inSurah">
+        <div
+          class="
+            flex flex-col
+            rounded-xl
+            overflow-hidden
+            bg-slate-100
+            dark:bg-slate-800
+          "
         >
-          {{ ayat.text.arab }}
-        </h1>
-        <h1 class="text-sm p-4 border-t dark:border-slate-200 border-slate-800">
-          {{ ayat.number.inSurah }} - {{ ayat.translation.id }}
-        </h1>
-        <audio controls class="w-full">
+          <h1
+            class="text-2xl text-right font-bold font-[ScheherazadeRegular] p-4"
+          >
+            {{ ayat.text.arab }}
+          </h1>
+          <h1
+            class="text-sm p-4 border-t dark:border-slate-200 border-slate-800"
+          >
+            {{ ayat.number.inSurah }} - {{ ayat.translation.id }}
+          </h1>
+        </div>
+        <audio controls class="w-full mt-2 mb-4 rounded-xl">
           <source :src="`${ayat.audio.primary}.mp3`" type="audio/mpeg" />
         </audio>
       </div>
