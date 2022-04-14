@@ -113,7 +113,7 @@
         <h1 class="text-sm p-4 border-t dark:border-slate-200 border-slate-800">
           {{ ayat.number.inSurah }} - {{ ayat.translation.id }}
         </h1>
-        <audio controls>
+        <audio controls class="w-full">
           <source :src="`${ayat.audio.primary}.mp3`" type="audio/mpeg" />
         </audio>
       </div>
