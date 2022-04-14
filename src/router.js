@@ -8,6 +8,8 @@ import Tentang from "./components/Tentang.vue";
 import Anggota from "./components/Anggota.vue";
 import Shalat from "./components/Shalat.vue";
 import Detail from "./components/Detail.vue";
+import Quran from "./components/Quran.vue";
+import Surah from "./components/Surah.vue";
 
 const routes = [
   {
@@ -44,6 +46,16 @@ const routes = [
     name: 'Detail',
     path: '/anggota/:id',
     component: Detail
+  },
+  {
+    name: 'Quran',
+    path: '/quran',
+    component: Quran
+  },
+  {
+    name: 'Surah',
+    path: '/quran/:no',
+    component: Surah
   },
   {
     path: '/:pathMatch(.*)*',

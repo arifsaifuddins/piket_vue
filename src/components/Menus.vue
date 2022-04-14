@@ -19,7 +19,7 @@
     document.querySelector(".mode").classList.toggle("justify-end");
     document.querySelector("html").classList.toggle("dark");
 
-    if (!localStorage.getItem("mode")) {
+    if (!localStorage.key("mode")) {
       localStorage.setItem("mode", "dark");
     } else {
       localStorage.removeItem("mode");

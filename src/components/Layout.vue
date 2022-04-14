@@ -7,23 +7,27 @@
       top-0
       right-0
       left-0
-      py-3
+      py-4
+      px-8
       shadow
       bg-white
       dark:bg-slate-700
-      justify-center
+      justify-between
       sm:w-[400px]
       mx-auto
       w-full
     "
   >
-    <img src="/assets/icons/icon.png" alt="icon" class="w-12" />
-    <h1 class="text-3xl font-bold mx-3">
+    <img src="/assets/icons/icon.png" alt="icon" class="w-10" />
+    <h1 class="font-bold mx-3 text-2xl">
       Piket
       <span class="bg-[#f59800] px-3 py-1 rounded-md text-white shadow-sm"
         >Sabtu</span
       >
     </h1>
+    <router-link to="/tentang">
+      <i class="fas fa-list-check text-2xl"></i>
+    </router-link>
   </div>
 
   <slot />
@@ -50,17 +54,17 @@
       <i class="fas fa-utensils text-xl"></i>
       <h3 class="text-sm">Menu</h3>
     </router-link>
-    <router-link to="/anggota" class="flex flex-col items-center">
-      <i class="fas fa-user text-xl"></i>
-      <h3 class="text-sm">Anggota</h3>
+    <router-link to="/quran" class="flex flex-col items-center">
+      <i class="fas fa-book-open text-xl"></i>
+      <h3 class="text-sm">Qur'an</h3>
     </router-link>
     <router-link to="/shalat" class="flex flex-col items-center">
       <i class="fas fa-clock text-xl"></i>
       <h3 class="text-sm">Shalat</h3>
     </router-link>
-    <router-link to="/tentang" class="flex flex-col items-center">
-      <i class="fas fa-list-check text-xl"></i>
-      <h3 class="text-sm">Tentang</h3>
+    <router-link to="/anggota" class="flex flex-col items-center">
+      <i class="fas fa-user text-xl"></i>
+      <h3 class="text-sm">Anggota</h3>
     </router-link>
   </div>
 </template>

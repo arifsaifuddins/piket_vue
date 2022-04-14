@@ -37,7 +37,7 @@
   </div>
   <div class="pt-20 px-1 flex flex-col">
     <div v-for="menu in menus[$route.params.id]" :key="menu.nama">
-      <div class="text-xl pl-2 mt-3 flex items-center">
+      <div class="text-xl pl-2 mt-3 font-bold flex items-center">
         {{ menu.nama }}
       </div>
       <hr
