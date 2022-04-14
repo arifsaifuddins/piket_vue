@@ -56,7 +56,10 @@
             dark:bg-slate-700
           "
         >
-          <router-link :to="`/quran/${surah.number}`" class="flex items-center">
+          <router-link
+            :to="`/quran/${surah.number}`"
+            class="flex items-center w-full mr-3"
+          >
             <i
               class="
                 fas
