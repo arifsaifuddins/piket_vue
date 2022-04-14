@@ -18,7 +18,7 @@
         top-0
         right-0
         left-0
-        p-5
+        p-4
         shadow
         bg-white
         dark:bg-slate-700
