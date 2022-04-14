@@ -115,7 +115,7 @@
           </h1>
         </div>
         <audio controls class="w-full mt-2 mb-4 rounded-xl">
-          <source :src="`${ayat.audio.primary}.mp3`" type="audio/mpeg" />
+          <source :src="ayat.audio.primary" type="audio/mpeg" />
         </audio>
       </div>
     </div>
