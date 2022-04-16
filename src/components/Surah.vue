@@ -93,6 +93,12 @@
       >
         {{ basmalah }}
       </h1>
+      <h1
+        class="text-2xl mt-20 text-center font-bold animate-bounce"
+        v-if="!surah"
+      >
+        Memuat Surah...
+      </h1>
       <div v-for="ayat in surah" :key="ayat.number.inSurah">
         <div
           class="

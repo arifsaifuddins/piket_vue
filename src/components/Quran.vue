@@ -39,6 +39,12 @@
           mb-4
         "
       />
+      <h1
+        class="text-2xl mt-20 text-center font-bold animate-bounce"
+        v-if="!quran"
+      >
+        Memuat Quran...
+      </h1>
       <div v-for="surah in quran" :key="surah.number" class="flex flex-col">
         <div
           class="

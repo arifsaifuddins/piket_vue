@@ -1,32 +1,32 @@
 [
   [
     {
-      "nama": "Tumis Tempe Kubis",
-      "gambar": "tempekol",
+      "nama": "Capcay Kol",
+      "gambar": "capcaykol",
       "menu": "Sahur",
       "kategori": "Makanan",
-      "desc": "Untuk dapat memasak tumis kol tempe pada postingan ini kamu membutuhkan 4 bahan saja. Jadi silahkan Anda siapkan terlebih dahulu bahan-bahanya seperti dibawah ini. Silahkan siapkan Kol setengan . Silahkan sediakan Tempe . Silahkan sediakan Tempe . Silahkan siapkan Cabe, bawang bombai,daun bawang(opsional ya)b, putih cincang,. Masukkan tempe dan aduk hingga warna menjadi berubah. Masukkan kecap manis dan aduk perlahan hingga merata. Tambahkan bumbu seperti garam dan aduk. Rekomendasi menu makan hari ini dari FIMELA ada Tempe Cabai Garam, Tumis Udang Bawang dan Cah Kembang Kol Ayam. ",
-      "url": "https://www.google.com/search?q=tumis+kol+tempe"
+      "desc": "Capcay merupakan salah satu masakan oriental yang praktis dan menyehatkan. Capcay sendiri berasal dari bahasa Hokkien, “cap” berarti sepuluh, sementara “cay” berarti sayur. Inilah yang menyebabkan cap cay terdiri dari banyak jenis sayuran. Tetapi, anda tidak harus menyiapkan tepat 10 macam sayuran, lho. Jenis sayuran yang sering digunakan pada capcay adalah kembang kol, wortel, dan sawi hijau. Selain itu, digunakan juga pelengkap lain seperti daging ayam, bakso, dan jamur kancing. Sebenarnya, ada dua jenis capcay, yakni capcay rebus dan tumis. Capcay rebus terlihat mirip seperti sayur sop karena kuahnya yang banyak. Sementara itu, capcay tumis jumlah kuahnya lebih sedikit.",
+      "url": "https://www.google.com/search?q=capcay+kol"
     }
   ],
   [
     {
-      "nama": "Teh Lemon Anget",
-      "gambar": "tehlemon",
+      "nama": "Teh Jahe Anget",
+      "gambar": "tehjahe",
       "menu": "Sahur",
       "kategori": "Minuman",
-      "desc": "Racikan teh dan lemon juga diketahui sebagai kombinasi dua bahan yang amat bermanfaat untuk kesehatan tubuh secara keseluruhan. Terlebih jika menggunakan jenis teh hitam dikatakan tak kalah baik dengan racikan teh dan lemon yang menggunakan jenis teh hijau. Walaupun lebih murah dan mudah didapatkan, ternyata manfaat teh hitam cukup mampu menyeimbangi efek kesehatan yang bisa didapatkan dari teh hijau. Mengandung berbagai nutrisi seperti vitamin C, vitamin B6, folat, theaflavin, katekin, kalsium dan berbagai nutrisi lainnya ada manfaat ajaib yang bisa didapatkan melalui konsumsi teh hitam campur lemon.",
-      "url": "https://www.google.com/search?q=teh+lemon"
+      "desc": "Teh jahe merupakan minuman kaya manfaat yang mudah dibuat di rumah. Tak hanya untuk menghangatkan, jahe juga baik untuk memperkuat sistem kekebalan tubuh. Selain itu, teh jahe juga cocok dijadikan minuman pendamping bagi cemilan atau kudapan untuk dinikmati pada pagi dan sore hari. Berikut ini adalah aneka resep dan cara membuat teh jahe hangat yang mudah dibuat di rumah.",
+      "url": "https://www.google.com/search?q=teh+jahe"
     }
   ],
   [
     {
-      "nama": "Cilok Bumbu Kacang",
-      "gambar": "cilok",
+      "nama": "Cireng Saus",
+      "gambar": "cireng",
       "menu": "Iftar",
       "kategori": "Takjil",
-      "desc": "Cilok is an Indonesian snack made with a blend of all purpose flour and tapioca flour, ground toasted dried shrimp, thinly sliced scallions, grated garlic, and season with salt, sugar, and ground white pepper. Water is then added to this mixture and kneaded until the point where it can be gathered into a ball. When you reach this point, the dough is ready, and you can start making 1 inch balls from this dough. The balls can be cooked by boiling in a pot of water or by deep frying in hot oil. Both versions are enjoyed with peanut sauce.",
-      "url": "https://www.google.com/search?q=cilok"
+      "desc": "Salah satu camilan yang mudah dibuat adalah cireng. Dikutip dari buku berjudul Sensasi Cireng Rasa Kekinian karya Indriani, (2020: 3). Cireng singkatan dari aci goreng merupakan makanan ringan yang berasal dari Jawa Barat. Makanan ini dibuat dengan cara menggoreng campuran adonan yang berbahan dasar tepung tapioka. Resep cireng andalan paling nikmat adalah cocolan bumbunya yang membuat makin enak.",
+      "url": "https://www.google.com/search?q=cireng+saus"
     },
     {
       "nama": "Kurma Balah",
@@ -34,17 +34,17 @@
       "menu": "Iftar",
       "kategori": "Takjil",
       "desc": "Kurma, (Arab: تمر, Tamr; nama latin Phoenix dactylifera) adalah tanaman palma (Arecaceae) dalam genus Phoenix, buahnya dapat dimakan. Walaupun tempat asalnya tidak diketahui karena telah sejak lama dibudidayakan, kemungkinan tanaman ini berasal dari tanah sekitar Teluk Persia.",
-      "url": "https://www.google.com/search?q=kurma"
+      "url": "https://www.google.com/search?q=kurma+medinah"
     }
   ],
   [
     {
-      "nama": "Semangka",
-      "gambar": "semangka",
+      "nama": "Jeruk Mandarin",
+      "gambar": "jeruk",
       "menu": "Iftar",
       "kategori": "Buah",
-      "desc": "Mencegah dehidrasi Semangka merupakan buah dengan kandungan air yang tinggi yakni mencapai 92 persen, Mencegah kanker, Mencegah penyakit jantung Mencegah peradangan Mencegah penyakit mata",
-      "url": "https://www.google.com/search?q=manfaat+semangka"
+      "desc": "Jeruk mandarin merupakan buah tropis yang banyak berasal dari Asia. Buah ini biasanya selalu disajikan pada perayaan Imlek. Jeruk mandarin dipercaya sebagai salah satu makanan yang membawa keberuntungan saat Imlek. Ada banyak jenis jeruk mandarin. Sebagian jenisnya bisa ditemukan dan dibeli di beberapa e-commerce di Indonesia.",
+      "url": "https://www.google.com/search?q=jeruk+mandarin"
     },
     {
       "nama": "Melon",
@@ -57,40 +57,40 @@
   ],
   [
     {
-      "nama": "Es Susu",
-      "gambar": "susu",
+      "nama": "Es Susu Coklat",
+      "gambar": "susucoklat",
       "menu": "Iftar",
       "kategori": "Minuman",
-      "desc": "Es susu regal jadi salah satu minuman kekinian ala kafe yang menyegarkan. Tapi minuman ini mudah banget buat ditiru di rumah, lho. Kamu pun bebas mau pakai susu rasa apa.",
-      "url": "https://www.google.com/search?q=es+susu"
+      "desc": "Sobat dapat memasak Es Susu Coklat hanya dengan menggunakan 5 bahan dan 4 langkah saja. Berikut ini bahan dan cara untuk memasaknya, yuk kita coba resep Es Susu Coklat!; Diperlukan 2 sdm coklat windmolen. Diperlukan 2 sdm susu kental manis. Diperlukan 3 sdm gula pasir. Dibutuhkan 170 ml air (70 ml air hangat + 100 ml air biasa). Gunakan secukupnya Es batu.",
+      "url": "https://www.google.com/search?q=es+susu+coklat"
     },
     {
-      "nama": "Es Timun Serut",
-      "gambar": "timunserut",
-      "menu": "Iftar",
+      "nama": "Air Mineral dingin",
+      "gambar": "mineral",
+      "menu": "Malam",
       "kategori": "Minuman",
-      "desc": "Timun biasanya disajikan untuk lalapan Namun kamu juga bisa mengolah timun menjadi minuman yang menyegarkan. Es timun serut adalah minuman andalan di restoran padang. Selain melegakan dahaga, es timun serut juga bermanfaat melunturkan lemak di tenggorokan dari daging dan santan setelah bersantap. Yuk bikin es timun serut di rumah saat Idul Adha, agar lebih segar bisa tambahkan selasih.",
-      "url": "https://www.google.com/search?q=es+mentimun+serut"
+      "desc": "Sebagian orang menjauhi air es karena mengira bahwa kebiasaan minum air es bisa menimbulkan penyakit tertentu. Padahal, air es memiliki beragam manfaat tubuh, misalnya menurunkan demam, menghidrasi tubuh setelah berolahraga, atau menjaga kelembapan kulit. Setiap hari, tubuh Anda kehilangan cairan melalui keringat, urine, dan napas. Oleh karena itu, Anda disarankan untuk banyak minum air putih , baik air es atau pun air biasa, agar tidak mengalami dehidrasi. Pada orang dewasa, konsumsi air putih yang dianjurkan adalah sebanyak 2 liter atau setara dengan 8 gelas per hari. ",
+      "url": "https://www.google.com/search?q=mineral+dingin"
     }
   ],
   [
     {
-      "nama": "Ayam Krispi Sambel",
-      "gambar": "ayamkrispi",
+      "nama": "Ayam Bakar Sambal",
+      "gambar": "ayambakar",
       "menu": "Malam",
       "kategori": "Makanan",
-      "desc": "Resep ayam kentucky mudah bisa Bunda variasikan dengan resep Ayam Crispy Sambal. Cara membuat ayam crispy sendiri sangat praktis. Bunda tidak perlu banyak bahan untuk membuat bumbu ayam crispy. Balutkan saja ayam dengan Kobe Tepung Kentucky Super Crispy sebelum digoreng. Tetapi jangan lupa membuat sambal pelengkapnya sebelum menghidangkan ayamnya. Gunakan cara membuat sambal sederhana dari resep sambal mantap berikut. Kombinasi menu ini membuktikan ayam crispy termasuk makanan yang cocok dengan sambal.",
-      "url": "https://www.google.com/search?q=ayam+krispi+sambel"
+      "desc": "Cara menyiapkannya memang tidak terlalu sulit namun tidak gampang juga. Jika salah mengolah maka hasilnya tidak akan memuaskan dan bahkan tidak sedap. Padahal sambal ayam panggang yang enak seharusnya punya aroma dan rasa yang mampu memancing selera kita. Rahasia Pedagang Ayam Bakar Harum Empuk Meresap. Ayam panggang merupakan hidangan lezat bernutrisi. Resep ayam panggang sudah tersedia, sehingga bisa dicicipi lewat aneka resep masakan yang simple ini. Banyak hal yang sedikit banyak berpengaruh terhadap kualitas rasa dari sambal ayam panggang, pertama dari jenis bahan, kedua pemilihan bahan segar sampai cara membuat dan menghidangkannya. Tidak usah pusing jika ingin menyiapkan sambal ayam panggang yang enak di rumah, karena asal sudah tahu triknya maka hidangan ini dapat menjadi suguhan istimewa.",
+      "url": "https://www.google.com/search?q=ayam+bakar+sambal"
     }
   ],
   [
     {
-      "nama": "Es Teh",
-      "gambar": "esteh",
-      "menu": "Malam",
+      "nama": "Es Jeruk Nipis",
+      "gambar": "esjeruk",
+      "menu": "Iftar",
       "kategori": "Minuman",
-      "desc": "Teh adalah minuman yang mengandung kafeina, sebuah infusi yang dibuat dengan cara menyeduh daun, pucuk daun, atau tangkai daun yang dikeringkan dari tanaman Camellia sinensis dengan air panas. Teh yang berasal dari tanaman teh dibagi menjadi empat kelompok: teh hitam, teh oolong, teh hijau, dan teh putih. ",
-      "url": "https://www.google.com/search?q=es+teh"
+      "desc": "Es jeruk nipis minuman segar dan sehat. Sangat cocok diminum setiap hari. Apa itu Es Jeruk Nipis?. Eh jeruk nipis adalah minum segar dari berbahan jeruk nipis. Jeruk nipis di peras di tambahkan garam, gula dan air lalu dilarutkan. Sehingga menghasilkan minuman segar yang kaya akan rasa.",
+      "url": "https://www.google.com/search?q=es+jeruk+nipis"
     }
   ]
 ]
