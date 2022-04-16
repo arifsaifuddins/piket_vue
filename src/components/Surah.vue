@@ -39,6 +39,7 @@
       top-0
       right-0
       left-0
+      z-20
       p-5
       shadow
       bg-white
@@ -120,7 +121,7 @@
             {{ ayat.number.inSurah }} - {{ ayat.translation.id }}
           </h1>
         </div>
-        <audio controls class="w-full mt-2 mb-4 rounded-xl">
+        <audio controls class="w-full mt-2 mb-4 rounded-xl -z-10">
           <source :src="ayat.audio.primary" type="audio/mpeg" />
         </audio>
       </div>
