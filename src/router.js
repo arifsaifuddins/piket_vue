@@ -39,7 +39,7 @@ const routes = [
   },
   {
     name: 'Param',
-    path: '/:id',
+    path: '/menu/:id',
     component: Menu
   },
   {
@@ -61,7 +61,7 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound
-  },
+  }
 ]
 
 export const router = createRouter({

@@ -89,7 +89,7 @@
         <div class="mb-10 mt-6">
           <router-link
             v-for="daf in menu.daftar"
-            :to="`../menu/${daf.id}`"
+            :to="`/menu/${daf.id}`"
             :key="daf.id"
           >
             <div
