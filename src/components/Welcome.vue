@@ -1,9 +1,3 @@
-<script setup>
-  import { useRouter } from "vue-router";
-
-  const router = useRouter();
-</script>
-
 <template>
   <div class="flex flex-col justify-around items-center h-full">
     <img src="/assets/welcome.svg" class="w-80" alt="svg" />
