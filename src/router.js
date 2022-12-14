@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 import Menus from "./components/Menus.vue";
 import Menu from "./components/Menu.vue";
